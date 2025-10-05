@@ -15,19 +15,20 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+
 def main():
     print('=' * 5, 'Grade Converter', '=' * 5)
     def grade_converter():
         grade = int(input('Enter a numerical grade (1-100): '))
         if grade > 100:
             print('A+')
-        elif grade in range (90, 100):
+        elif grade >= 90:
             print('A')
-        elif grade in range (80, 90):
+        elif grade >= 80:
              print('B')
-        elif grade in range (70, 80):
+        elif grade >= 70:
             print('C')
-        elif grade in range (65, 70):
+        elif grade >= 65:
             print('D')
         else:
             print('F')                
@@ -35,6 +36,7 @@ def main():
 
 
 main()
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
